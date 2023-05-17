@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 body{
     background-image: url(./images/pattern-background-desktop.svg);
@@ -22,21 +23,27 @@ body{
 }
 
 .card{
-    /* width: 450px; */
+    width: 450px;
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
+    
 }
-/* 나중에 찾기 */
+
 .container{
-    /* display: flex;
-    align-items: center;
+    /* display: flex;   */
+    width: 400px;
+    text-align: center;
+    /* align-items: center;
     justify-content: center; */
-    width: 450px;
 }
 .title{
     font-size: 2rem;
     font-weight: 900;
+}
+
+.description{
+    color: var(--Desaturated-blue);
 }
 
 .plan-description{
@@ -47,9 +54,21 @@ body{
     justify-content: space-around;
 }
 
+#pay{
+    color:var(--Desaturated-blue);
+}
+
 .proceed-payment{
     width:100%;
     background-color: var(--Bright-blue);
     color:white;
+    border-radius: 12px;
+    
+}
+
+.cancel-order{
+    width:100%;
+    background-color: white;
+    color:var(--Desaturated-blue);
     border-radius: 12px;
 }
